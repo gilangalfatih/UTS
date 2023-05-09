@@ -1,0 +1,21 @@
+body {
+  font: 16px/28px arial, sans-serif;
+  background-color: #aaa;
+  background-color: #FOF8FF;
+  background-image: #aaa;
+  background-image: url('https://www.example.com/image.gif');
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  margin: auto; /* membuat tabel berada di tengah layar */
+}
+
+td:first-child { /* membuat kolom pertama rata kiri */
+  text-align: left;
+}
+
+td:not(:first-child) { /* membuat kolom kedua dan ketiga rata tengah */
+  text-align: center;
+}
